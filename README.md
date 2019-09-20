@@ -12,7 +12,7 @@ Paws adds Vim-like keyboard shortcuts to the AWS Management Console.
 Installation
 ------------
 
-Paws can be used by installing [paws.js](https://raw.github.com/tombenner/paws/master/paws.user.js) in [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en) (Chrome) or [Greasemonkey](https://addons.mozilla.org/en-us/firefox/addon/greasemonkey/) (Firefox).
+Paws can be used by installing [paws.user.js](https://raw.github.com/yegortokmakov/paws/master/paws.user.js) in [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en) (Chrome) or [Greasemonkey](https://addons.mozilla.org/en-us/firefox/addon/greasemonkey/) (Firefox).
 
 Shortcuts
 ---------
@@ -33,6 +33,7 @@ Open the default view of a service.
   <tr><td>S3</td><td>ss3</td></tr>
   <tr><td>VPC</td><td>vpc</td></tr>
   <tr><td>Lambda</td><td>lam</td></tr>
+  <tr><td>DynamoDB</td><td>ddb</td></tr>
   <tr><td>Cloudformation</td><td>cft</td></tr>
 </table>
 
@@ -61,7 +62,7 @@ Use the left sidebar navigation menu.
 
 <table>
   <tr><td>Show shortcuts</td><td>?</td></tr>
-  <tr><td>Focus search box</td><td>/</td></tr>
+  <tr><td>Open service navigation and search box</td><td>/</td></tr>
 </table>
 
 License
