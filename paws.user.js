@@ -33,7 +33,7 @@ Paws.App = (function () {
         'ss3': {href: '/s3/home'},
         'vpc': {href: '/vpc/home'},
         'cft': {href: '/cloudformation/home'},
-        'da': {href: '/lambda/home'},
+        'lam': {href: '/lambda/home'},
         // Pages
         'img': {href: '/ec2/v2/home#Images:sort=name'},
         'vol': {href: '/ec2/v2/home#Volumes:sort=desc:createTime'},
@@ -46,9 +46,7 @@ Paws.App = (function () {
         'return': {func: ['navbar', 'select']}, // This doesn't work on some services
         // Miscellaneous
         '/': {click: '#nav-servicesMenu .nav-elt-label'},
-        '?': {open: 'https://github.com/tombenner/paws#shortcuts'},
-        // lambda searchbox ???? WIP
-        'lam': {focus: '.inputAndSuggestions.input'}
+        '?': {open: 'https://github.com/yegortokmakov/paws#shortcuts'},
     };
 
     self.init = function () {
